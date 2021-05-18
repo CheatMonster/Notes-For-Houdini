@@ -1,10 +1,36 @@
 # Group
 
-## 分组方式
+分组可以由点、顶点、线、面来分组
+
+## 属性
+
+组名相同情况下![image-20210518095736192](C:\Users\QZ\AppData\Roaming\Typora\typora-user-images\image-20210518095736192.png)选择组的合成方式
+
+区域选组![image-20210518095918818](C:\Users\QZ\AppData\Roaming\Typora\typora-user-images\image-20210518095918818.png)
+
+根据法线和一条方向向量的夹角选组![image-20210518100434229](C:\Users\QZ\AppData\Roaming\Typora\typora-user-images\image-20210518100434229.png)
+
+- Facet
+
+重新计算法线![image-20210518100333827](C:\Users\QZ\AppData\Roaming\Typora\typora-user-images\image-20210518100333827.png)
+
+一个物体的不可视面分组![image-20210518100910784](C:\Users\QZ\AppData\Roaming\Typora\typora-user-images\image-20210518100910784.png)（一般用于摄像机)
+
+根据线（角度/长度）来分组![image-20210518101124086](C:\Users\QZ\AppData\Roaming\Typora\typora-user-images\image-20210518101124086.png)
+
+边缘线分组（闭合模型没有边缘线)![image-20210518101301842](C:\Users\QZ\AppData\Roaming\Typora\typora-user-images\image-20210518101301842.png)
+
+根据连接深度进行分组（如路径算法）![image-20210518101417374](C:\Users\QZ\AppData\Roaming\Typora\typora-user-images\image-20210518101417374.png)
+
+
+
+## 其他分组方式
 
 ### ①视图分组
 
 选中需要分组的内容后，在视图界面Tab搜索group
+
+在视图界面框选
 
 ### ②Vex分组
 

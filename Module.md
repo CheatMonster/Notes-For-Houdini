@@ -2,7 +2,7 @@
 
 ### Ch 数据通道
 
-
+调整动画曲线
 
 ### img 合成
 
@@ -88,43 +88,58 @@ Bump&Normals 凹凸贴图
 
 #### 1.点
 
-add-创建一个点
+- add 创建一个点，也可以连接到物体下级，删除物体但保留点
 
-tribez-配合add节点使用，根据点来创建面 公式：((order+1)*order)/2
+
+- tribez 配合add节点使用，根据点来创建面 公式：((order+1)*order)/2
+- polysoup 合并顶点为一个点
+- 
 
 #### 2.线
 
-line-创建一条线
+- line-创建一条线
 
-curve-选中后在视图界面回车，即可自己画线
 
-drawcurve-选中后在一个面上画线，如果想去掉面的网格，可以加一个null加点
+- curve-选中后在视图界面回车，即可自己画线
+
+
+- drawcurve-选中后在一个面上画线，如果想去掉面的网格，可以加一个null加点
+
 
 #### 3.面
 
-grid-创建一个面
+- grid-创建一个面
+
 
 #### 4.几何体
 
-box-正方体
+- box-正方体
 
-sphere-球体
 
-circle-圆环
+- sphere-球体
 
-cube-本质也是box
 
-**metaball-变形球（多个变形球会互相吸附）**
+- circle-圆环
 
-Platonic-柏拉图物体
 
-torus-圆环
+- cube-本质也是box
 
-tube-管道
 
-**trace-根据图片生成模型**
+- **metaball-变形球（多个变形球会互相吸附）**
 
-convert/unpack-取消模型打包状态，使每个点/线/面不再封装
+- Platonic-柏拉图物体
+
+
+- torus-圆环
+
+
+- tube-管道
+
+
+- **trace-根据图片生成模型**
+
+- convert/unpack-取消模型打包状态，使每个点/线/面不再封装
+
 
 #### 5.Houdini自带
 
